@@ -46,7 +46,7 @@ Before you can remotely reset PINs, you must on-board the Microsoft PIN reset se
 1. Visit [Microsoft PIN Reset Service Integration website](https://login.windows.net/common/oauth2/authorize?response_type=code&client_id=b8456c59-1230-44c7-a4a2-99b085333e84&resource=https%3A%2F%2Fgraph.windows.net&redirect_uri=https%3A%2F%2Fcred.microsoft.com&state=e9191523-6c2f-4f1d-a4f9-c36f26f89df0&prompt=admin_consent), and sign in using the tenant administrator account you use to manage your Azure Active Directory tenant.
 2. After you log in, click **Accept** to give consent for the PIN reset service to access your account.<br>
 ![PIN reset service application in Azure](images/pinreset/pin-reset-service-home-screen.png)<br>
-3. In the Azure portal, you can verify that the Microsoft PIN reset service is integrated from the **Enterprise applications** blade. Filter to application status "Enabled" and both Microsoft Pin Reset Service Production and Microsoft Pin Reset Client Production will show up in your tenant.<br>
+3. In the Azure portal, you can verify that the Microsoft PIN reset service is integrated from the **Enterprise applications** blade. Filter to application status "Enabled" Microsoft Pin Reset Service Production will show up in your tenant.<br>
 ![PIN reset service permissions page](images/pinreset/pin-reset-service-application.png)
 
 ### Configure Windows devices to use PIN reset using Group Policy
